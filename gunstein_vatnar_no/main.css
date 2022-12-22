@@ -3,7 +3,7 @@ body {
 }
 
 .header {
-    padding: 10px;
+    padding: 0.1rem;
     text-align: center;
     color: white;
     font-size: 20px;
@@ -67,10 +67,16 @@ img {
 a {
     color: #ffffff;
     margin: 0.1rem;
+    font-size: 1.1rem;
+}
+
+p {
+    margin: 0.1rem;
+    font-size: 1.1rem;
 }
 
 li {
-    margin: 0.3rem;
+    margin: 0.6rem;
 }
 
 .btn {
