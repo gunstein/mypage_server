@@ -4,8 +4,7 @@
 Edit html and css
 
 Build:
-sudo docker build -t mypage_server .
-sudo docker tag mypage_server:latest gunstein/mypage_server:latest
+sudo docker build -t gunstein/mypage_server:latest .
 
 Test local before push:
 sudo docker run -p 8080:80 gunstein/mypage_server:latest
