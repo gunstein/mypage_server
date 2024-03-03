@@ -8,7 +8,7 @@ sudo docker build -t mypage_server .
 sudo docker tag mypage_server:latest gunstein/mypage_server:latest
 
 Test local before push:
-sudo docker run -p 8080:80 gunstein/mypage_server
+sudo docker run -p 8080:80 gunstein/mypage_server:latest
 
 Push 
 sudo docker push gunstein/mypage_server:latest
