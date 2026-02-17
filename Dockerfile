@@ -1,3 +1,3 @@
-FROM nginx:stable-alpine
+FROM docker.io/library/nginx:stable-alpine
 COPY gunstein_vatnar_no /usr/share/nginx/html
 COPY nginx/default.conf /etc/nginx/conf.d/default.conf
