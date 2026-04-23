@@ -23,6 +23,45 @@
             <div class="item">
                 <div class="item__heading">
                     <img
+                        src="assets/blokkflyt.webp"
+                        width="500"
+                        height="300"
+                        alt="Blokkflyt Bitcoin visualization"
+                    />
+                </div>
+                <div class="item__content">
+                    <h2>Blokkflyt</h2>
+                    <p>
+                        Real-time visualization of the Bitcoin network. Transactions
+                        appear in the center and drift outward based on fees. Color
+                        indicates state: purple (new) → blue (mempool) → orange
+                        (high fee) → yellow (selected for block).
+                    </p>
+                    <p>
+                        An inner clock-ring grows in real time showing how long the
+                        current block has been mining. An outer ring shows the last
+                        20 confirmed blocks.
+                    </p>
+                    <p>
+                        Frontend: TypeScript and PixiJS. Backend: Python/FastAPI
+                        with ZMQ and Bitcoin Core RPC.
+                    </p>
+                    <ul>
+                        <li>
+                            <a href="https://github.com/gunstein/blokkflyt"
+                                >GitHub</a
+                            >
+                        </li>
+                    </ul>
+                </div>
+                <div class="item__button">
+                    <a class="btn" href="https://blokkflyt.vatnar.no">Run IT</a>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="item__heading">
+                    <img
                         src="assets/pinball2Dmulti.webp"
                         width="500"
                         height="300"
